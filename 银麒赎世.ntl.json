@@ -9438,6 +9438,54 @@
             "triggers": [],
             "display_index": 194
           }
+        },
+        {
+          "id": 195,
+          "keys": [
+            "NTL重构版",
+            "版本标记"
+          ],
+          "secondary_keys": [],
+          "comment": "NTL版本标记_V13.3.0_20260607",
+          "content": "@@preprocessing\n<%_\n// ═══════════════════════════════════════════════\n// 银麒赎世 NTL重构版 版本标记\n// 版本: V13.3.0\n// 构建日期: 2026-06-07\n// 变动: NTR→NTL 完整重构\n//   - 堕落度→攻略度/奉献度\n//   - 欲望值→屈辱度\n//   - 隐奸→暗攻略\n//   - 任务系统: D~X级征服任务\n//   - 新增角色 19 人\n//   - 商城道具: NTL专属道具\n// ═══════════════════════════════════════════════\n_%>\n<NTL_version_marker>\n  银麒赎世 NTL重构版 V13.3.0\n  构建于 2026-06-07\n  此条目仅作为版本标记——确认世界书已是最新版本\n</NTL_version_marker>\n",
+          "constant": true,
+          "selective": false,
+          "insertion_order": 999,
+          "enabled": true,
+          "position": "before_char",
+          "use_regex": false,
+          "extensions": {
+            "depth": 0,
+            "display_index": 195,
+            "exclude_recursion": false,
+            "useProbability": false,
+            "probability": 100,
+            "role": 0,
+            "position": 0,
+            "prevent_recursion": false,
+            "selectiveLogic": 0,
+            "sticky": 0,
+            "case_sensitive": null,
+            "cooldown": 0,
+            "delay": 0,
+            "delay_until_recursion": false,
+            "group": "",
+            "group_override": false,
+            "group_weight": 100,
+            "ignore_budget": false,
+            "match_character_depth_prompt": false,
+            "match_character_description": false,
+            "match_character_personality": false,
+            "match_creator_notes": false,
+            "match_persona_description": false,
+            "match_scenario": false,
+            "match_whole_words": null,
+            "outlet_name": "",
+            "automation_id": "",
+            "scan_depth": null,
+            "vectorized": false,
+            "triggers": []
+          }
         }
       ],
       "name": "银麒赎世"
